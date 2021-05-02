@@ -9,7 +9,7 @@ export class ContaPoupanca extends Conta {
 
     sacar(valor) {
         const taxa = 1.02;
-        return this_sacar(valor,taxa);
+        return this._sacar(valor,taxa);
     }
 
 
